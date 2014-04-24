@@ -1,0 +1,9 @@
+{% block onetweet %}
+  <div class="tweetbox">
+      <img>
+      <div class="content">
+      <strong class="by"><a href="/users/{{tweet.name}}">{{tweet.name}}</a></strong><br>{{tweet.text}}<br>
+      <a href="#">Re-tweet</a>
+      </div>
+  </div>
+{% endblock %}
